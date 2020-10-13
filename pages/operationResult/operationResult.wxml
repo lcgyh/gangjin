@@ -1,0 +1,46 @@
+<!--pages/operationResult/operationResult.wxml-->
+<view wx:if='{{showNav}}'>
+	<nav-bar navbar-data='{{nvabarData}}' back='{{true}}'></nav-bar>
+</view>
+<view class="container container_opaResult" style="padding-top:{{height}}px">
+	<view class="header">
+		<view class="header_bg">
+			<image src='../../images/oparesult.png'></image>
+		</view>
+		<view class="main">
+			<view class="main_num">190,902</view>
+			<view class="main_des">
+				<view class="icon">
+					<image src='../../images/result_icon.png'></image>
+				</view>
+				<view class="text">识别图中共有钢筋190,902根</view>
+			</view>
+		</view>
+
+	</view>
+	<view class="contain">
+		<view class="pic">
+			<image src='../../images/index-bg@3x.png'></image>
+		</view>
+	</view>
+	<view class="tab_b">
+		<view class="tab_b_l">核对数量</view>
+		<view class="tab_b_r">返回首页</view>
+	</view>
+	<van-dialog use-slot confirmButtonText='核对修正' cancelButtonText='确认无误' class='modal_pop' closeOnClickOverlay show="{{ show }}" show-cancel-button bind:close="onClose">
+		<view class="pop_con">
+			<view class="title">核对数量</view>
+			<view class="con">
+				<view class="con1">识别图中共有钢筋222根</view>
+				<view class="con2">
+					<view class="text">实际</view>
+					<view class="num">
+						<van-field />
+					</view>
+					<view class="text">根</view>
+				</view>
+			</view>
+		</view>
+
+	</van-dialog>
+</view>

@@ -1,0 +1,150 @@
+/* pages/operationResult/operationResult.wxss */
+.container_opaResult{
+  width: 100%;
+}
+.container_opaResult .header{
+  width: 100%;
+  height: 258rpx;
+  position: relative;
+}
+
+.container_opaResult .header .header_bg{
+  width: 100%;
+  height: 258rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.container_opaResult .header image{
+  width: 100%;
+  height: 100%;
+}
+
+.container_opaResult .header .main{
+  width: 668rpx;
+  height: 140rpx;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 8rpx; 
+  left: 50%;
+  top: 0;
+  margin-left: -334rpx;
+  margin-top: 70rpx;
+  overflow: hidden;
+}
+.container_opaResult .header .main .main_num{
+  color: #000000;
+  font-size: 39rpx;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+
+.container_opaResult .header .main .main_des{
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: center;
+}
+.container_opaResult .header .main .main_des .icon{
+  width: 36rpx;
+  height: 30rpx;
+}
+.container_opaResult .header .main .main_des .icon image{
+  width: 100%;
+  height: 100%;
+}
+.container_opaResult .header .main .main_des .text{
+  color: #9C9C9C;
+  font-size: 24rpx;
+  margin-left: 20rpx;
+ 
+}
+
+.container_opaResult .contain .pic{
+  width: 670rpx;
+  height: 670rpx;
+  margin-top: 20rpx;
+  border-radius: 8rpx;
+}
+
+.container_opaResult .contain .pic image{
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
+}
+.container_opaResult .tab_b{
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.container_opaResult .tab_b .tab_b_l{
+  width: 50%;
+  height: 120rpx;
+  background-color: #B83000;
+  color: #fff;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 120rpx;
+}
+.container_opaResult .tab_b .tab_b_r{
+  width: 50%;
+  height: 120rpx;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 120rpx;
+}
+
+
+.container_opaResult .modal_pop .pop_con .title{
+  width: 100%;
+  height: 90rpx;
+  background-color: #B83000;
+  text-align: center;
+  line-height: 90rpx;
+  font-size: 36rpx;
+  color: #fff;
+}
+.container_opaResult .modal_pop .pop_con .con{
+  padding-bottom: 60rpx;
+}
+.container_opaResult .modal_pop .pop_con .con .con2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+  align-items: center;
+}
+.container_opaResult .modal_pop .pop_con .con .con1{
+  color: #000000;
+  font-size: 32rpx;
+  text-align: center;
+  margin-top: 30rpx;
+} 
+.container_opaResult .modal_pop .pop_con .con .con2 .text{
+  color: #000000;
+  font-size: 32rpx;
+}
+
+.container_opaResult .modal_pop .pop_con .con .con2 .van-cell{
+  padding: 0;
+  width: 240rpx;
+  height: 68rpx;
+  border:1px solid #EFEFEF;
+  margin:0 20rpx;
+}
+.container_opaResult .modal_pop .pop_con .con .con2 .van-cell .van-field__input{
+  color: #000000;
+  font-size: 40rpx;
+  text-align: center;
+  height: 68rpx;
+  line-height: 68rpx;
+}
+.container_opaResult .modal_pop .van-button--default{
+  color: #000000!important;
+  font-size: 32rpx;
+}
+

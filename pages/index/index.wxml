@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view wx:if='{{showNav}}'>
+	<nav-bar navbar-data='{{nvabarData}}' back='{{true}}'></nav-bar>
+</view>
+
+<view class="container container_index" style="padding-top:{{height}}px">
+	<view class="header">
+		<view class="header_con">
+			<image src='../../images/index-bg@3x.png'></image>
+		</view>
+		<view class="des">
+			<view class="title1">钢筋云点数</view>
+			<view class="title2">——钢筋进场数量智能验收</view>
+			<view class="desinfo">
+				<view class="p1">
+					本程序针对传统的人工计数方法完成钢筋数量现场验收存在的工作内容繁琐、工作效率低下、计数误差较大等诸多不足，利用计算机视觉+深度学习+5G的多手段融合方法，建立了钢筋进场数量智能验收系统，以代替人工完成此项重复性工作，实现钢筋数量快速、精确、高效的智能点数，提高施工现场建筑材料进场验收的工作效率。
+				</view>
+				<view class="p2">
+					本程序测试的图像数据集包括上海建工四建集团有限公司项目部提供的现场采集图像以及百度图片等多个网络图像数据集中的相关图像，共计1500张，程序测试准确率高达98%，满足现场使用要求。
+				</view>
+			</view>
+		</view>
+		<view class="opa">
+			<view class="opa_con">
+				<view class="use_l">
+					<view class="icon">
+						<image src='../../images/camera@3x.png'></image>
+					</view>
+					<view class="title">拍照</view>
+				</view>
+				<view class="use_c"></view>
+				<view class="use_r">
+					<view class="icon">
+						<image src='../../images/pic@3x.png'></image>
+					</view>
+					<view class="title">相册</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="help_con">
+		<view class="title">
+			<view class="line_l"></view>
+			<view class="text">使用说明</view>
+			<view class="line_r"></view>
+		</view>
+		<view class="main">
+			使用说明的文字，讲述如何使用，如何进行识别的，支持文字和图片，可以自定义，使用说明的文字，讲述如何使用，如何进行识别的，支持文字和图片，可以自定义，使用说明的文字，讲述如何使用，如何进行识别的，支持文字和图片，可以自定义
+		</view>
+	</view>
+	<view class="pics">
+		<view class="page-section-spacing">
+			<scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+				<view class="scroll_item">
+					<image src='../../images/index-bg@3x.png'></image>
+          <view class="icon_down"> <image src='../../images/download@3x.png'></image></view>
+				</view>
+				<view class="scroll_item">
+					<image src='../../images/SKU-1.jpg'></image>
+          <view class="icon_down"> <image src='../../images/download@3x.png'></image></view>
+				</view>
+				<view class="scroll_item">
+					<image src='../../images/SKU-2.jpg'></image>
+          <view class="icon_down"> <image src='../../images/download@3x.png'></image></view>
+				</view>
+        <view class="scroll_end"></view>
+			</scroll-view>
+		</view>
+	</view>
+
+
+</view>

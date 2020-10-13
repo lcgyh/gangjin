@@ -1,0 +1,37 @@
+<!--pages/formuser/formuser.wxml-->
+<view class="container container_form">
+	<view class="con_bg">
+		<image src='../../images/formbg.png'></image>
+	</view>
+	<view class="form_con" style="padding-top:{{height}}px">
+		<view class="title">为了您的正常使用，请填写您的相关信息</view>
+		<view class="form_item">
+			<view class="label">姓名</view>
+			<van-field model:value="{{ value }}" placeholder="请输入" />
+		</view>
+		<view class="form_item">
+			<view class="label">单位</view>
+			<van-field model:value="{{ value }}" placeholder="请输入" />
+		</view>
+		<view class="form_item">
+			<view class="label">部门</view>
+			<van-field model:value="{{ value }}" placeholder="请输入" />
+		</view>
+		<view class="form_item">
+			<view class="label">职称</view>
+			<van-field model:value="{{ value }}" placeholder="请输入" />
+		</view>
+		<view class="form_item">
+			<view class="label">所在项目</view>
+			<van-field model:value="{{ value }}" placeholder="请输入" />
+		</view>
+
+		<view class="btn_con">
+			<view class="btn">登录并授权微信</view>
+		</view>
+	</view>
+  <view class="back_icon" style='top:{{globalH*2-5}}px'>
+    <van-icon name="arrow-left" size='40rpx'/>
+  </view>
+
+</view>

@@ -1,0 +1,19 @@
+<!--pages/result/result.wxml-->
+<view wx:if='{{showNav}}'>
+	<nav-bar navbar-data='{{nvabarData}}' back='{{true}}'></nav-bar>
+</view>
+<view class="container container_result" style="padding-top:{{height}}px">
+	<view class="pic">
+		<image src='../../images/oparesult.png'></image>
+	</view>
+	<view class="result">
+		<view class="icon">
+			<image src='../../images/result_icon.png'></image>
+		</view>
+		<view class="title">钢筋数量</view>
+		<view class="num">190,902根</view>
+	</view>
+  <view class="tab_b">
+		<view class="tab_b_text">返回首页</view>
+	</view>
+</view>
